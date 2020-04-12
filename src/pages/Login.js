@@ -22,8 +22,7 @@ export default function Login({ history }) {
 
     return(
         <div className="login-container ">
-            <form onSubmit={handleSubmit}>
-                <img src={logo} alt="Tindev"></img>
+            <form onSubmit={handleSubmit}>zz
                 <input 
                     placeholder="Digite seu usuário no Github"
                     value={username}
